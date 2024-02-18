@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: greenyellow;
+    margin: 0;
+}
+
+#wrapper{
+    display: grid;
+    justify-content: center;
+    padding-top: 5%;
+    width: 100%;
+    height: 80%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 15%;
+}
+
+#header {
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    grid-row: 1/2;
+}
+#location {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
+    font-size: 1.2rem;
+
+}
+
+#formHolder{
+    width: 100%;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+form {
+    font-size: 1.5rem;
+}
+
+#btn {
+    padding: 1%;
+    font-size: 1.2rem;
+}
+
+#weatherHolder {
+    
+    margin-top: 2%;
+    margin-left: 20%;
+    width: 60%;
+    border: 1px solid black;
+    background-color: white;
+}
+#weatherHeader {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2%;
+}
+
+#weatherBody {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(100px, 80%);
+    font-size: 1.5rem;
+    padding-top: 2%;
+    width: 100%;
+}
+
+.info {
+    padding-top: 2%;
+    padding-left: 1%;
+    
+}
+
+#error {
+    padding: 10%;
+    font-size: 2rem;
+}
